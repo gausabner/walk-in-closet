@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {storeProducts, detailProduct} from './data';
 
 
+// eslint-disable-line no-use-before-define
+
 const ProductContext = React.createContext();
 //Provider
 //Consumer

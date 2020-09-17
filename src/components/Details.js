@@ -3,6 +3,8 @@ import{ProductConsumer} from '../context';
 import {Link} from 'react-router-dom';
 import {ButtonContainer} from './Button';
 
+// eslint-disable-line no-use-before-define
+
 export default class Details extends Component {
     render() {
         return (

@@ -56,7 +56,7 @@ export default function CartItem ({item,value}) {
             </div>
             <div className="col-10 mx-auto col-lg-1">
                     <div className="trash-icon" onClick={()=>removeItem(id)}>
-                        <img src={redremove} style={{width:'1.5rem',height:'auto'}}></img>
+                        <img src={redremove} style={{width:'1.5rem',height:'auto'}} alt="product"></img>
                     </div> 
                 </div>
         </div>

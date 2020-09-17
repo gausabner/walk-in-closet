@@ -6,6 +6,8 @@ import add from '../add.png';
 import PropTypes from 'prop-types';
 import propTypes from 'prop-types';
 
+// eslint-disable-line no-use-before-define
+
 export default class Product extends Component {
     render() {
         const { id, title, img, price, size, inCart, company} = this.props.product;

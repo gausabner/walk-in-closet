@@ -9,6 +9,7 @@ import Cartt from './components/Cart/Cartt';
 import Default from './components/Default';
 import Modal from './components/Modal';
 
+// eslint-disable-line no-use-before-define
 
 class App extends Component {
   render(){
