@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="58" viewBox="0 0 39 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="rgba_228_228_228_0.76_" data-name="rgba(228,228,228,0.76)" class="cls-1" d="M488.5,167l2.5.5v7l3.5-2.5q2.8-4.2,9-5L516,177.5v38l-1.5,1.5-10,8H501V186.5l-1.5-.5-8-7-.5,36.5-3.5,3.5-8,6H477V176.5l1.5-.5Z" transform="translate(-477 -167)"/>
+</svg>

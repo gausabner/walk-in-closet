@@ -1,0 +1,61 @@
+:root{
+  --mainBlue:#202020;
+  --lightBlue:#ffffff;
+  --mainWhite:#f3f3f3;
+  --mainDark:#3f3f3f;
+  --mainYellow:#ff0000;
+}
+
+body{
+  font-family: 'Lato', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: capitalize;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font: 0.8rem !important;
+  color:var(--mainBlue);
+  border-radius: 0.2rem !important;
+  border: 0.1rem solid var(--mainBlue) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark)!important;
+  opacity: 80%;
+  color: var(--mainWhite)!important;
+  transition: all ease 0.5s;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color:var(--mainWhite);
+}
+
+.trash-icon {
+  filter: grayscale(100%);
+  opacity: 50%;
+}
+
+.trash-icon:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  opacity: 100%;
+  transition: all ease 0.6s;
+}
